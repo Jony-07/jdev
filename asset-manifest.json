@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jdev/static/css/main.85454ef0.css",
+    "main.js": "/jdev/static/js/main.fa474c5d.js",
+    "index.html": "/jdev/index.html",
+    "main.85454ef0.css.map": "/jdev/static/css/main.85454ef0.css.map",
+    "main.fa474c5d.js.map": "/jdev/static/js/main.fa474c5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85454ef0.css",
+    "static/js/main.fa474c5d.js"
+  ]
+}
