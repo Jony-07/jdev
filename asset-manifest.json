@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/jdev/static/css/main.aff586ca.css",
-    "main.js": "/jdev/static/js/main.f0d98b53.js",
-    "static/media/reactParallax.jpg": "/jdev/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
-    "static/media/reactWeather.jpg": "/jdev/static/media/reactWeather.a1988356c4f5a620716e.jpg",
-    "static/media/graphql.png": "/jdev/static/media/graphql.fc6b9451733c620ceb86.png",
-    "static/media/reactSmooth.jpg": "/jdev/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
-    "static/media/arrayDestruct.jpg": "/jdev/static/media/arrayDestruct.84671dfd109d4de76bae.jpg",
-    "static/media/navbar.jpg": "/jdev/static/media/navbar.7ce4ddd4bd6a2fa48cd5.jpg",
-    "static/media/installNode.jpg": "/jdev/static/media/installNode.16b2cb6d162eaa8d6fb5.jpg",
-    "static/media/jony.jpg": "/jdev/static/media/jony.6dbd41f65e39a5c0b38c.jpg",
+    "main.css": "/jdev/static/css/main.880886f7.css",
+    "main.js": "/jdev/static/js/main.342faecc.js",
+    "static/media/jony.png": "/jdev/static/media/jony.795dc77a0e2007873d08.png",
+    "static/media/kotlin.png": "/jdev/static/media/kotlin.0e22a842339118ef9a10.png",
+    "static/media/ooober.jpg": "/jdev/static/media/ooober.d7a6c35f601118923ed0.jpg",
+    "static/media/agv.jpg": "/jdev/static/media/agv.6f051f859af33e1ef8d4.jpg",
+    "static/media/sumersa.jpg": "/jdev/static/media/sumersa.005f1ca5a08eba032619.jpg",
+    "static/media/miopharma.jpg": "/jdev/static/media/miopharma.ba0bb3e65fa3b7cd9750.jpg",
+    "static/media/progressmind.jpg": "/jdev/static/media/progressmind.220bd2c60ff8d19af949.jpg",
+    "static/media/cr.jpg": "/jdev/static/media/cr.8e1d20088941f253b3be.jpg",
     "static/media/react.png": "/jdev/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/nextjs.png": "/jdev/static/media/nextjs.48ddc8121a0fcb543d64.png",
+    "static/media/bootstrap.png": "/jdev/static/media/bootstrap.3c4e1a5d3a149087b144.png",
+    "static/media/csharp.png": "/jdev/static/media/csharp.509c1a4773a41d73a664.png",
     "static/media/github.png": "/jdev/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/laravel.png": "/jdev/static/media/laravel.279e3fcb19d440713887.png",
+    "static/media/java.png": "/jdev/static/media/java.2be0bca1b95cfc0ce63e.png",
     "static/media/html.png": "/jdev/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/jdev/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/jdev/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/php.png": "/jdev/static/media/php.7e75016157f5e7e20172.png",
+    "static/media/mysql.png": "/jdev/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/jdev/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/firebase.png": "/jdev/static/media/firebase.6b405206252ff65ef584.png",
     "index.html": "/jdev/index.html",
-    "main.aff586ca.css.map": "/jdev/static/css/main.aff586ca.css.map",
-    "main.f0d98b53.js.map": "/jdev/static/js/main.f0d98b53.js.map"
+    "main.880886f7.css.map": "/jdev/static/css/main.880886f7.css.map",
+    "main.342faecc.js.map": "/jdev/static/js/main.342faecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.aff586ca.css",
-    "static/js/main.f0d98b53.js"
+    "static/css/main.880886f7.css",
+    "static/js/main.342faecc.js"
   ]
 }
