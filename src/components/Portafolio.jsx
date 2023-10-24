@@ -42,7 +42,7 @@ function Portafolio() {
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4
             border-gray-500'>
-                Portafolio
+                Portfolio
             </p>
             <p className='py-6'>
                 Check out some of myy work right here
