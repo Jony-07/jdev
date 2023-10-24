@@ -3,10 +3,18 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import php from "../assets/php.png";
+import laravel from "../assets/laravel.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png";
+import powerbi from "../assets/powerbi.png";
+import csharp from "../assets/csharp.png";
+import kotlin from "../assets/kotlin.png";
+import firebase from "../assets/firebase.png";
+import sql from "../assets/sql.png";
+import mysql from "../assets/mysql.png";
+import java from "../assets/java.png";
 
 function Experience() {
     const techs = [
@@ -42,14 +50,14 @@ function Experience() {
         },
         {
             id: 6,
-            src: nextjs,
-            title: 'Next JS',
-            style: 'shadow-white'
+            src: php,
+            title: 'PHP',
+            style: 'shadow-blue-600'
         },
         {
             id: 7,
-            src: graphql,
-            title: 'Graphql',
+            src: laravel,
+            title: 'Laravel',
             style: 'shadow-pink-400'
         },
         {
@@ -57,11 +65,59 @@ function Experience() {
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400'
+        },
+        {
+            id: 9,
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-400'
+        },
+        {
+            id: 10,
+            src: powerbi,
+            title: 'Power BI',
+            style: 'shadow-yellow-500'
+        },
+        {
+            id: 11,
+            src: csharp,
+            title: 'Csharp',
+            style: 'shadow-purple-500'
+        },
+        {
+            id: 12,
+            src: kotlin,
+            title: 'Kotlin',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 13,
+            src: firebase,
+            title: 'Firebase',
+            style: 'shadow-yellow-500'
+        },
+        {
+            id: 14,
+            src: sql,
+            title: 'SQL Server',
+            style: 'shadow-red-500'
+        },
+        {
+            id: 15,
+            src: mysql,
+            title: 'MySQL',
+            style: 'shadow-sky-500'
+        },
+        {
+            id: 16,
+            src: java,
+            title: 'Java',
+            style: 'shadow-orange-500'
         }
     ]
   return (
     <div name="experience" className="bg-gradient-to-b from-gray-800
-    to-black w-full h-screen">
+    to-black w-full md:h-screen">
       <div className='max-w-screen-lg mx-auto p-4
       flex flex-col justify-center w-full h-full text-white'>
         

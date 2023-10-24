@@ -1,38 +1,50 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
-import reactParallax from '../assets/portfolio/reactParallax.jpg';
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import sumersa from '../assets/portfolio/sumersa.jpg';
+import miopharma from '../assets/portfolio/miopharma.jpg';
+import agv from '../assets/portfolio/agv.jpg';
+import progressmind from '../assets/portfolio/progressmind.jpg';
+import ooober from '../assets/portfolio/ooober.jpg';
+import cr from '../assets/portfolio/cr.jpg';
 
 function Portafolio() {
 
     const portafolios = [
         {
             id:1,
-            src: arrayDestruct
+            src: sumersa,
+            code:'https://github.com/Gissela25/LIS_PROYECTO',
+            style: 'shadow-yellow-500'
         },
         {
             id:2,
-            src: installNode
+            src: miopharma,
+            code:'https://github.com/Gissela25/ProyectoDSE-mioPharma',
+            style: 'shadow-sky-500'
         },
         {
             id:3,
-            src: navbar
+            src: agv,
+            code:'https://github.com/Gissela25/Agencia-viajes-dse',
+            style: 'shadow-pink-500'
         },
         {
             id:4,
-            src: reactParallax
+            src: progressmind,
+            code:'https://github.com/Gissela25/Progress-mind',
+            style: 'shadow-purple-500'
         },
         {
             id:5,
-            src: reactSmooth
+            src: ooober,
+            code:'https://github.com/Gissela25/Ooober',
+            style: 'shadow-blue-500'
         },
         {
             id:6,
-            src: reactWeather
-        }
+            src: cr,
+            code:'https://github.com/Gissela25/SS-SCS',
+            style: 'shadow-red-500'
+        },
     ];
   return (
     <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800
@@ -45,20 +57,24 @@ function Portafolio() {
                 Portfolio
             </p>
             <p className='py-6'>
-                Check out some of myy work right here
+            Check out some of the projects I've worked on.
             </p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
+        <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8
                 px-12 sm:px-0'>
         {
-            portafolios.map(({id, src})=>(
+            portafolios.map(({id, src,code,style})=>(
                 
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                    <div key={id} className={`shadow-md rounded-lg ${style}`}>
                         <img src={src} alt='' 
                         className='rounded-md duration-200 hover:scale-105'/>
                         <div className='flex items-center justify-center'>
                             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                            <a 
+                            target="_blank"
+                            rel="noreferrer"
+                            href={code}
+                            className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
                     </div>
                 
