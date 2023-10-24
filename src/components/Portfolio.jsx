@@ -35,7 +35,7 @@ function Portafolio() {
         }
     ];
   return (
-    <div name="portafolio" className='w-full h-screen bg-gradient-to-b from-black to-gray-800
+    <div name="portfolio" className='w-full h-screen bg-gradient-to-b from-black to-gray-800
     text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col
       justify-center w-full h-full'>

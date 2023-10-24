@@ -1,6 +1,7 @@
 import React from 'react'
 import JonyImage from "../assets/jony.jpg";
 import {MdKeyboardArrowRight} from "react-icons/md";
+import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
@@ -20,7 +21,10 @@ const Home = () => {
           </p>
 
           <div >
-            <button className='group text-white w-fit px-6 py-4 my-2 flex 
+            <Link to='portfolio'
+            smooth={true}
+            duration={500}
+            className='group text-white w-fit px-6 py-4 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
             cursor-pointer'>
               Portafolio
@@ -28,7 +32,7 @@ const Home = () => {
               <MdKeyboardArrowRight size={25}
               className='ml-1'/>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
