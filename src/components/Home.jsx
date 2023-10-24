@@ -1,5 +1,5 @@
 import React from 'react'
-import JonyImage from "../assets/jony.jpg";
+import JonyImage from "../assets/jony.png";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import {Link} from 'react-scroll';
 
@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Junior Developer
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit,
-             tenetur quia labore ea ipsa in tempore odit nulla velit quisquam,
-              nesciunt repudiandae sapiente soluta adipisci, nisi quam. Eius, commodi.
+           I am final year computer science engineering student. Currently, I'm looking for
+           a first job to develop my skills.<p></p> 
+           Also, I am open to learn new technologies.
           </p>
 
           <div >

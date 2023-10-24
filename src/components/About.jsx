@@ -14,23 +14,17 @@ function About() {
                     About
                 </p>
             </div>
-            <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Deserunt ab quasi in inventore corporis hic architecto 
-                provident vitae labore earum commodi numquam, explicabo 
-                vel aliquid delectus facere corrupti id illo.
+            <p className='text-xl mt-20 text-justify'>
+                My name is Jony Morales and I'm twenty-two years old. I'm from
+                El Salvador and currently, I'm final year computer science engineering student. <p></p>
+                I have worked with some technologies during my time at the University, but in some I learned more than in others ones.
             </p>
 
             <br />
 
-            <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Beatae porro similique veritatis, totam mollitia voluptate 
-                praesentium dolores nihil cum amet molestias doloremque, 
-                corrupti velit fugit, consectetur dolorum quod dolore modi 
-                tempore nostrum! Nihil, debitis tempora corrupti nemo 
-                tempore dolore, laborum officia veniam consectetur molestias unde.
-                Illum dolorum eum optio dicta!
+            <p className='text-xl text-justify'>
+                I'm open to learn new technologies, but I have done my social hours as internships in web development.
+                Also, I obtained certificates with ASP.net in udemy and Java Fundamentals in oracle. In addition, I took the TOELF exam and I scored B2 - 502 pts.
             </p>
         </div>
         
