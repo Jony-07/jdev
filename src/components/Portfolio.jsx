@@ -60,7 +60,7 @@ function Portafolio() {
             Check out some of the projects I've worked on.
             </p>
         </div>
-        <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8
+        <div className='relative z-10 w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8
                 px-12 sm:px-0'>
         {
             portafolios.map(({id, src,code,style})=>(
@@ -69,12 +69,12 @@ function Portafolio() {
                         <img src={src} alt='' 
                         className='rounded-md duration-200 hover:scale-105'/>
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
+                            <button className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Demo</button>
                             <a 
                             target="_blank"
                             rel="noreferrer"
                             href={code}
-                            className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
+                            className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Code</a>
                         </div>
                     </div>
                 

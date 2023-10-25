@@ -26,7 +26,7 @@ const Home = () => {
             duration={500}
             className='group text-white w-fit px-6 py-4 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
-            cursor-pointer'>
+            cursor-pointer relative z-10'>
               Portafolio
               <span className='group-hover:rotate-90 duration-300'>
               <MdKeyboardArrowRight size={25}
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         <div>
           <img src={JonyImage} alt='jony profile'
-          className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+          className='rounded-2xl mx-auto w-2/3 md:w-full relative z-10'/>
         </div>
       </div>
     </div>
