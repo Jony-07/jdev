@@ -1,0 +1,46 @@
+
+
+body {
+  background: #1f1934;
+  color: #fff;
+}
+
+
+
+.cover {
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.txt{
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Un color sólido que combina con los colores del gradiente */
+  background-color: #6C3C92; /* Un tono de púrpura */
+  /* Ajusta otros estilos para mejorar la legibilidad */
+  color: white; /* Texto en color blanco para mejor contraste */
+  padding: 20px;
+}
+.coverMenu{
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Un color sólido que combina con los colores del gradiente */
+  background-color: #6C3C92; /* Un tono de púrpura */
+  /* Ajusta otros estilos para mejorar la legibilidad */
+  color: white; /* Texto en color blanco para mejor contraste */
+  padding: 20px; /* Agrega espacio alrededor del menú */
+}

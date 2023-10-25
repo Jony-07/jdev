@@ -2,11 +2,11 @@ import React from 'react'
 import JonyImage from "../assets/jony.png";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import {Link} from 'react-scroll';
+import '../assets/css/global.css';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b 
-    from-black via-black to-gray-800 '>
+    <div name="home" className='h-screen w-full  cover'>
       
       <div className="max-w-screen-lg mx-auto flex flex-col
       items-center justify-center h-full px-4 md:flex-row">
@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
             I'm a Junior Developer
           </h2>
-          <p className='text-gray-500 py-4 max-w-md'>
+          <p className='text-white py-4 max-w-md'>
            I am final year computer science engineering student. Currently, I'm looking for
            a first job to develop my skills.<p></p> 
            Also, I am open to learn new technologies.
