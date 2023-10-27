@@ -18,7 +18,7 @@ function About() {
             <p className='text-xl mt-20 text-justify'>
                 My name is Jony Morales and I'm twenty-two years old. I'm from
                 El Salvador and currently, I'm final year computer science engineering student. <p></p>
-                I have worked with some technologies during my time at the University, but in some them I learned more than in others ones.
+                I have worked with some technologies during my time at the University, but in some of them I learned more than in others ones.
             </p>
 
             <br />
