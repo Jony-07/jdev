@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+//import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 function SocialLinks() {
 
@@ -34,7 +34,7 @@ function SocialLinks() {
             ),
             href: 'mailto:jony25lopezml@gmail.com'
         },
-        {
+     /*   {
             id:4,
             child:(
                 <>
@@ -44,7 +44,7 @@ function SocialLinks() {
             href: 'https://vanishing-systems.000webhostapp.com/resume.pdf',
             style: 'rounded-br-md',
             download: true,
-        }
+        }*/
     ];
 
   return (

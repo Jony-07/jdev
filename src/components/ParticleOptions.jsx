@@ -48,9 +48,9 @@ const ParticleOptions ={
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#A2FD25",
+      "color": "#FFD700",
       "opacity": 0.4,
-      "width": 2
+      "width": 2.5,
     },
     "move": {
       "enable": true,
