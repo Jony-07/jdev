@@ -117,14 +117,14 @@ function Experience() {
         }
     ]
   return (
-    <div name="experience" className="w-full md:h-screen cover">
-      <div className='max-w-screen-lg mx-auto p-4
+    <div name="skills" className="w-full md:h-screen cover">
+      <div className='max-w-screen-lg mx-auto p-3
       flex flex-col justify-center w-full h-full text-white'>
         
         <div>
             <p className='text-4xl font-bold border-b-4
-            border-yellow-400 p-2 inline '>Experience</p>
-            <p className='py-6'>These are the technologies I've worked with</p>
+            border-yellow-400 p-2 inline '>Skills</p>
+            <p className='py-5'>These are the technologies I've worked with</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 
