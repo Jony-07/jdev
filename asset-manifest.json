@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jdev/static/css/main.80e384a3.css",
-    "main.js": "/jdev/static/js/main.49c0726f.js",
+    "main.css": "/jdev/static/css/main.e4b6d9b4.css",
+    "main.js": "/jdev/static/js/main.1eb67629.js",
     "static/media/jony.png": "/jdev/static/media/jony.795dc77a0e2007873d08.png",
     "static/media/kotlin.png": "/jdev/static/media/kotlin.0e22a842339118ef9a10.png",
     "static/media/ooober.jpg": "/jdev/static/media/ooober.d7a6c35f601118923ed0.jpg",
@@ -24,11 +24,11 @@
     "static/media/javascript.png": "/jdev/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/firebase.png": "/jdev/static/media/firebase.6b405206252ff65ef584.png",
     "index.html": "/jdev/index.html",
-    "main.80e384a3.css.map": "/jdev/static/css/main.80e384a3.css.map",
-    "main.49c0726f.js.map": "/jdev/static/js/main.49c0726f.js.map"
+    "main.e4b6d9b4.css.map": "/jdev/static/css/main.e4b6d9b4.css.map",
+    "main.1eb67629.js.map": "/jdev/static/js/main.1eb67629.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e384a3.css",
-    "static/js/main.49c0726f.js"
+    "static/css/main.e4b6d9b4.css",
+    "static/js/main.1eb67629.js"
   ]
 }
